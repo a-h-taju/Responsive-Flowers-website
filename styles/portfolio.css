@@ -1,0 +1,47 @@
+.title{
+
+}
+.sub-title{
+    color: rgba(137, 135, 161, 1);
+}
+
+
+/* Header Styles */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px 0px 150px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-bar-anchor {
+    display: flex;
+    gap: 10px;
+
+}
+
+.nav-bar-anchor a {
+    text-decoration: none;
+}
+.nav-bar-anchor-color1{
+    color: rgba(37, 36, 50, 1);
+}
+
+
+/* Small Media Responsive */
+@media screen and (max-width: 576px) {
+    
+    /* Header style */
+    .nav-bar-anchor{
+        display: none;
+        padding: 0px;
+    }
+    .header-flex{
+        padding: 0px;
+    }
+}
