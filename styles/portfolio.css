@@ -189,8 +189,29 @@
     width: 100%;
 }
 
+/* container-6 */
+.container-6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1120px;
+    height: 248px;
+    padding: 50px 300px;
+    align-items: center;
+}
 
+.logo-flex {
+    display: flex;
+    gap: 20px;
+}
 
+.logo-image img {
+    width: 36px;
+    height: 36px;
+}
+
+.txt-decoration {
+    text-decoration: none;
+}
 
 
 
@@ -308,5 +329,17 @@
         padding: 10px 30px;
         width: 120px;
         height: 30px;
+    }
+
+    /* container-6 */
+    .container-6 {
+        position: absolute;
+        top: 5200px;
+        left: 60px;
+        grid-template-columns: none;
+        width: 120px;
+        height: 248px;
+        padding: 0px;
+        gap: 20px;
     }
 }
