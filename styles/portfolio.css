@@ -1,8 +1,11 @@
 .title{
-
+color: rgba(233, 90, 8, 1);
 }
 .sub-title{
     color: rgba(137, 135, 161, 1);
+}
+.txt-size{
+    font-size: 30px;
 }
 
 
@@ -30,6 +33,20 @@
 }
 .nav-bar-anchor-color1{
     color: rgba(37, 36, 50, 1);
+}
+
+/* container-1 */
+.container-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 30px 150px 0px 150px;
+    justify-content: space-around;
+    gap: 30px;
+}
+.container-1-txt-size{
+    height: 299px;
+    width: 570px;
 }
 
 
